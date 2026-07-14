@@ -1,0 +1,21 @@
+# 秘密情報(絶対にコミットしない)
+.env
+credentials.json
+google_meet_credentials.json
+token.json
+
+# 録音ファイル(サイズが大きいためコミットしない)
+recordings/*
+!recordings/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# エディタ・OS
+.vscode/
+.idea/
+.DS_Store

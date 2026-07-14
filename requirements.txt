@@ -1,0 +1,11 @@
+# OpenAI API(Whisper文字起こし・議事録生成)
+openai>=1.30.0
+
+# 環境変数(.env)の読み込み
+python-dotenv>=1.0.0
+
+# Google Docs API / Google Drive API
+google-api-python-client>=2.100.0
+google-auth>=2.20.0
+google-auth-httplib2>=0.1.0
+google-auth-oauthlib>=1.0.0
